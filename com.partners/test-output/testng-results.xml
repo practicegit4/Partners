@@ -2,19 +2,19 @@
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="10721" started-at="2019-07-21T19:09:23Z" finished-at="2019-07-21T19:09:34Z">
+  <suite name="Default suite" duration-ms="21108" started-at="2019-07-21T23:37:24Z" finished-at="2019-07-21T23:37:45Z">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:fed_runner.LoginRunner@343f4d3d]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.runner.LoginRunner@343f4d3d]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="10721" started-at="2019-07-21T19:09:23Z" finished-at="2019-07-21T19:09:34Z">
-      <class name="fed_runner.LoginRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:fed_runner.LoginRunner@343f4d3d]" name="setUpClass" is-config="true" duration-ms="166" started-at="2019-07-21T15:09:23Z" finished-at="2019-07-21T15:09:24Z">
+    <test name="Default test" duration-ms="21108" started-at="2019-07-21T23:37:24Z" finished-at="2019-07-21T23:37:45Z">
+      <class name="com.runner.LoginRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.runner.LoginRunner@343f4d3d]" name="setUpClass" is-config="true" duration-ms="148" started-at="2019-07-21T19:37:24Z" finished-at="2019-07-21T19:37:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="FAIL" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:fed_runner.LoginRunner@343f4d3d]" name="feature" duration-ms="10241" started-at="2019-07-21T15:09:24Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-07-21T15:09:34Z">
+        <test-method status="FAIL" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.runner.LoginRunner@343f4d3d]" name="feature" duration-ms="20626" started-at="2019-07-21T19:37:24Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-07-21T19:37:44Z">
           <params>
             <param index="0">
               <value>
@@ -30,10 +30,10 @@
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
-System info: host: 'DESKTOP-4CN1S37', ip: '192.168.1.197', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+System info: host: 'DESKTOP-4CN1S37', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\robir\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:57081}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 75.0.3770.142, webStorageEnabled: true}
-Session ID: 7cacdab94fa262b3ab7cdfcac1af7171
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\robir\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:57463}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 75.0.3770.142, webStorageEnabled: true}
+Session ID: 628e7820c5e3932753d595adef01fa07
 *** Element info: {Using=xpath, value=//*[@id="loginNoErrorFillMsg"]/text()[1]}]]>
             </message>
             <full-stacktrace>
@@ -43,10 +43,10 @@ Session ID: 7cacdab94fa262b3ab7cdfcac1af7171
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
-System info: host: 'DESKTOP-4CN1S37', ip: '192.168.1.197', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+System info: host: 'DESKTOP-4CN1S37', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\robir\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:57081}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 75.0.3770.142, webStorageEnabled: true}
-Session ID: 7cacdab94fa262b3ab7cdfcac1af7171
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\robir\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:57463}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 75.0.3770.142, webStorageEnabled: true}
+Session ID: 628e7820c5e3932753d595adef01fa07
 *** Element info: {Using=xpath, value=//*[@id="loginNoErrorFillMsg"]/text()[1]}
 	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
 	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
@@ -80,10 +80,10 @@ Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable t
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
-System info: host: 'DESKTOP-4CN1S37', ip: '192.168.1.197', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+System info: host: 'DESKTOP-4CN1S37', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\robir\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:57081}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 75.0.3770.142, webStorageEnabled: true}
-Session ID: 7cacdab94fa262b3ab7cdfcac1af7171
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\robir\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:57463}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 75.0.3770.142, webStorageEnabled: true}
+Session ID: 628e7820c5e3932753d595adef01fa07
 *** Element info: {Using=xpath, value=//*[@id="loginNoErrorFillMsg"]/text()[1]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -104,7 +104,7 @@ Session ID: 7cacdab94fa262b3ab7cdfcac1af7171
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 	at com.sun.proxy.$Proxy20.getText(Unknown Source)
-	at com.actions.LoginActions.ErrorMessage(LoginActions.java:47)
+	at com.actions.LoginActions.ErrorMessage(LoginActions.java:46)
 	at com.stepdef.LoginStepdef.user_will_see_the_message(LoginStepdef.java:46)
 	at ✽.Then User will see the "<Error>" message(login.feature:10)
 ]]>
@@ -113,15 +113,15 @@ Session ID: 7cacdab94fa262b3ab7cdfcac1af7171
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="writeExtentReport()[pri:0, instance:fed_runner.LoginRunner@343f4d3d]" name="writeExtentReport" is-config="true" duration-ms="12" started-at="2019-07-21T15:09:34Z" finished-at="2019-07-21T15:09:34Z">
+        <test-method status="PASS" signature="writeExtentReport()[pri:0, instance:com.runner.LoginRunner@343f4d3d]" name="writeExtentReport" is-config="true" duration-ms="13" started-at="2019-07-21T19:37:44Z" finished-at="2019-07-21T19:37:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- writeExtentReport -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:fed_runner.LoginRunner@343f4d3d]" name="tearDownClass" is-config="true" duration-ms="229" started-at="2019-07-21T15:09:34Z" finished-at="2019-07-21T15:09:34Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.runner.LoginRunner@343f4d3d]" name="tearDownClass" is-config="true" duration-ms="262" started-at="2019-07-21T19:37:44Z" finished-at="2019-07-21T19:37:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-      </class> <!-- fed_runner.LoginRunner -->
+      </class> <!-- com.runner.LoginRunner -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
